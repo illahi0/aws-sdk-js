@@ -32,7 +32,6 @@
       "xmlbuilder": "0.4.2"
     },
     "main": "index.js",
-    "browser": "lib/browser.js",
     "browserify": { "transform": "./dist-tools/transform.js" },
     "engines": {
       "node": ">= 0.8.0"

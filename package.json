@@ -31,7 +31,13 @@
       "xml2js": "0.2.8",
       "xmlbuilder": "0.4.2"
     },
+    "dependencies": {
+      "sax": "0.5.3",
+      "xml2js": "0.2.8",
+      "xmlbuilder": "0.4.2"
+    },
     "main": "index.js",
+    "browser": "lib/browser.js",
     "browserify": { "transform": "./dist-tools/transform.js" },
     "engines": {
       "node": ">= 0.8.0"
